@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class BuscadorComponent {
-  sendData(event: any){
+  enviarDatos(event: any){
     console.log(event.target.value)
   }
 }
