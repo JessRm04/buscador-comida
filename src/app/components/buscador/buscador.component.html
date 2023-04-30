@@ -3,9 +3,7 @@
 <section class="search-results" *ngIf="beer">
     <ul>
       <li *ngFor="let item of beer">
-        <ul>
-          <li *ngFor="let food of item.food_pairing">{{ food }}</li>
-        </ul>
+        {{ item.food_pairing[0] }}
       </li>
     </ul>
   </section>
